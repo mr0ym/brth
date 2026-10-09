@@ -36,7 +36,7 @@ export function PasswordGate({ children }: { children: ReactNode }) {
         <div className="question-wrap">
           <p className="eyebrow">a little something private</p>
           <h1 className="birthday-title">psst... password?</h1>
-          <p className="birthday-subtitle">only the birthday girl gets in ✨</p>
+          <p className="birthday-subtitle">Hint: our baby's name</p>
         </div>
 
         <form className="gate-form" onSubmit={submit}>
